@@ -13,11 +13,11 @@
     $message = @trim(stripslashes($_POST['message'])); 
 
     $email_from = 'no_reply@nxispwr.com';
-    $email_to = 'info@nxispwr.com';//replace with your email
+    $email_to = 'jgalindo@nxispwr.com';//replace with your email
 
     $body = 'The following person: [ ' . $name . ' ] sent you a message via the www.nxispwr.com website.' . "\n\n" . 'The following is their contact information:' . "\n" . 'Email:     ' . $email . "\n" . 'Telephone: ' . $phone . "\n" . 'Company:   ' . $company . "\n" . 'Subject:   ' . $subject . "\n\n" . 'Message:   <<< ' . $message . " >>>\n\n" . 'DO NOT REPLY TO THIS EMAIL.';
 
-    $success = @mail($email_to, 'e-mail sent from nxispwr.com', $body, 'From: <'.$email_from.'>');
+    $success = @mail($email_to, 'e-mail sent from nexispower.com', $body, 'From: <'.$email_from.'>');
 	
     echo json_encode($status);
     die;
