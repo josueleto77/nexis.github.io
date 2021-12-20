@@ -1,5 +1,5 @@
 <?php
-	header('location:index.html');
+	header('location:nexispower.com');
 	$status = array(
 		'type'=>'success',
 		'message'=>'Thank you for contacting us. We will contact you as early as possible.'
@@ -9,7 +9,7 @@
     $email = @trim(stripslashes($_POST['your email'])); 
     $phone = $_POST['your phone']; 
     $company = @trim(stripslashes($_POST[''])); 
-    $subject = @trim(stripslashes($_POST['subject'])); 
+    $subject = @trim(stripslashes($_POST[''])); 
     $message = @trim(stripslashes($_POST['message'])); 
 
     $email_from = 'no_reply@nxispwr.com';
