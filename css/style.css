@@ -493,6 +493,8 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
     color:  white;
     text-shadow: none;
+	-webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(74, 86, 255);
 }
 
 .carousel-caption h1 {
@@ -507,7 +509,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 81px;
     font-weight: 600;
     margin-top: 0px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
